@@ -24,28 +24,27 @@ Aplicações tradicionais de IA Generativa na indústria frequentemente falham a
 
 ## 🏗️ Arquitetura da Solução
 
-[ Consulta do Operador ]
-│
-▼
+```text
+[ Consulta do Operador ] 
+           │
+           ▼
 [ Filtros de Metadados ] ──▶ [ ChromaDB (Base Vetorial) ]
-│
-▼
-[ Validação Termodinâmica Prévia ]
-(Verificação de 2ª Lei & Gradientes ΔT)
-│
-▼
-[ Prompt Enriquecido ]
-│
-▼
-[ Google Gemini Flash ]
-│
-┌─────────────────────┴─────────────────────┐
-▼                                           ▼
-[ Interface Streamlit ]                     [ Relatório PDF Executivo ]
-(Métricas, Alertas, Plotly)                     (FPDF2 / Auditoria)
-
-
----
+                                          │
+                                          ▼
+                         [ Validação Termodinâmica Prévia ]
+                         (Verificação de 2ª Lei & Gradientes ΔT)
+                                          │
+                                          ▼
+                               [ Prompt Enriquecido ]
+                                          │
+                                          ▼
+                              [ Google Gemini Flash ]
+                                          │
+                    ┌─────────────────────┴─────────────────────┐
+                    ▼                                           ▼
+         [ Interface Streamlit ]                     [ Relatório PDF Executivo ]
+        (Métricas, Alertas, Plotly)                     (FPDF2 / Auditoria)
+```
 
 ## 🛠️ Stack Tecnológica
 
