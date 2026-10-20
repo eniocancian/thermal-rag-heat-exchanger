@@ -1,0 +1,23 @@
+@"
+# Ambientes Virtuais e Dependencias
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Configuracoes e chaves locais
+.streamlit/secrets.toml
+.env
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+"@ | Out-File -FilePath .gitignore -Encoding utf8
